@@ -24,8 +24,8 @@ npm install nodejs-naps2-wrapper
 ## Quick Start
 
 ```javascript
-const NAPS2 = require('naps2-wrapper');
-const { MODES, SOURCES } = require('naps2-wrapper');
+const NAPS2 = require('nodejs-naps2-wrapper');
+const { MODES, SOURCES } = require('nodejs-naps2-wrapper');
 
 async function example() {
     const naps2 = new NAPS2();
