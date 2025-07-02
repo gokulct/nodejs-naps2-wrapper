@@ -1,0 +1,99 @@
+2025-07-02 23:03:25.6347 12768 Error importing file. Path: null System.IO.FileNotFoundException: Could not find file 'D:\Gokul\Hobby\naps2-java-wrapper\nodejs-naps2-wrapper\null'.
+File name: 'D:\Gokul\Hobby\naps2-java-wrapper\nodejs-naps2-wrapper\null'
+   at void System.IO.__Error.WinIOError(int errorCode, string maybeFullPath)
+   at void System.IO.FileStream.Init(string path, FileMode mode, FileAccess access, int rights, bool useRights, FileShare share, int bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, string msgPath, bool bFromProxy, bool useLongPath, bool checkHost)
+   at new System.IO.FileStream(string path, FileMode mode, FileAccess access)
+   at IAsyncEnumerable<ProcessedImage> NAPS2.ImportExport.FileImporter.Import(string filePath, ImportParams importParams, ProgressHandler progress)
+   at async Task NAPS2.Automation.AutomatedScanning.ImportImages()
+2025-07-02 23:03:26.5692 12768 Error importing file. Path: C:\\Users\\Dell\\Downloads\\Inventory - Basic - Schema.pdfC:\\UsersDell\\Downloads\\50 page sample PDF.indd.pdf System.IO.FileNotFoundException: Could not find pdf file: 'C:\\Users\\Dell\\Downloads\\Inventory - Basic - Schema.pdfC:\\UsersDell\\Downloads\\50 page sample PDF.indd.pdf'
+   at NAPS2.Pdf.PdfImporter.LoadDocument(String filePath, ImportParams importParams)
+   at NAPS2.Pdf.PdfImporter.<>c__DisplayClass4_0.<Import>b__0(Action`1 produceImage)
+   at NAPS2.Util.AsyncProducers.<>c__DisplayClass1_0`1.<RunProducer>b__0(Action`1 produce)
+   at NAPS2.Util.AsyncProducers.<>c__DisplayClass2_0`1.<<RunProducer>b__0>d.MoveNext()
+   at async IAsyncEnumerable<T> NAPS2.Util.AsyncSink<T>.AsAsyncEnumerable()
+   at TResult System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore<TResult>.GetResult(short token)
+   at async Task NAPS2.Automation.AutomatedScanning.ImportImages() x 2
+2025-07-02 23:04:33.5176 5128 Error importing file. Path: null System.IO.FileNotFoundException: Could not find file 'D:\Gokul\Hobby\naps2-java-wrapper\nodejs-naps2-wrapper\null'.
+File name: 'D:\Gokul\Hobby\naps2-java-wrapper\nodejs-naps2-wrapper\null'
+   at void System.IO.__Error.WinIOError(int errorCode, string maybeFullPath)
+   at void System.IO.FileStream.Init(string path, FileMode mode, FileAccess access, int rights, bool useRights, FileShare share, int bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, string msgPath, bool bFromProxy, bool useLongPath, bool checkHost)
+   at new System.IO.FileStream(string path, FileMode mode, FileAccess access)
+   at IAsyncEnumerable<ProcessedImage> NAPS2.ImportExport.FileImporter.Import(string filePath, ImportParams importParams, ProgressHandler progress)
+   at async Task NAPS2.Automation.AutomatedScanning.ImportImages()
+2025-07-02 23:04:33.6323 5128 Error importing file. Path: C:\\Users\\Dell\\Downloads\\Inventory - Basic - Schema.pdfC:\\Users\\Dell\\Downloads\\50 page sample PDF.indd.pdf System.IO.FileNotFoundException: Could not find pdf file: 'C:\\Users\\Dell\\Downloads\\Inventory - Basic - Schema.pdfC:\\Users\\Dell\\Downloads\\50 page sample PDF.indd.pdf'
+   at NAPS2.Pdf.PdfImporter.LoadDocument(String filePath, ImportParams importParams)
+   at NAPS2.Pdf.PdfImporter.<>c__DisplayClass4_0.<Import>b__0(Action`1 produceImage)
+   at NAPS2.Util.AsyncProducers.<>c__DisplayClass1_0`1.<RunProducer>b__0(Action`1 produce)
+   at NAPS2.Util.AsyncProducers.<>c__DisplayClass2_0`1.<<RunProducer>b__0>d.MoveNext()
+   at async IAsyncEnumerable<T> NAPS2.Util.AsyncSink<T>.AsAsyncEnumerable()
+   at TResult System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore<TResult>.GetResult(short token)
+   at async Task NAPS2.Automation.AutomatedScanning.ImportImages() x 2
+2025-07-02 23:05:12.2536 3144 Error importing file. Path: null System.IO.FileNotFoundException: Could not find file 'D:\Gokul\Hobby\naps2-java-wrapper\nodejs-naps2-wrapper\null'.
+File name: 'D:\Gokul\Hobby\naps2-java-wrapper\nodejs-naps2-wrapper\null'
+   at void System.IO.__Error.WinIOError(int errorCode, string maybeFullPath)
+   at void System.IO.FileStream.Init(string path, FileMode mode, FileAccess access, int rights, bool useRights, FileShare share, int bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, string msgPath, bool bFromProxy, bool useLongPath, bool checkHost)
+   at new System.IO.FileStream(string path, FileMode mode, FileAccess access)
+   at IAsyncEnumerable<ProcessedImage> NAPS2.ImportExport.FileImporter.Import(string filePath, ImportParams importParams, ProgressHandler progress)
+   at async Task NAPS2.Automation.AutomatedScanning.ImportImages()
+2025-07-02 23:05:12.3643 3144 Error importing file. Path: C:\\Users\\Dell\\Downloads\\Inventory - Basic - Schema.pdfC:\\Users\\Dell\\Downloads\\50 page sample PDF.indd.pdf System.IO.FileNotFoundException: Could not find pdf file: 'C:\\Users\\Dell\\Downloads\\Inventory - Basic - Schema.pdfC:\\Users\\Dell\\Downloads\\50 page sample PDF.indd.pdf'
+   at NAPS2.Pdf.PdfImporter.LoadDocument(String filePath, ImportParams importParams)
+   at NAPS2.Pdf.PdfImporter.<>c__DisplayClass4_0.<Import>b__0(Action`1 produceImage)
+   at NAPS2.Util.AsyncProducers.<>c__DisplayClass1_0`1.<RunProducer>b__0(Action`1 produce)
+   at NAPS2.Util.AsyncProducers.<>c__DisplayClass2_0`1.<<RunProducer>b__0>d.MoveNext()
+   at async IAsyncEnumerable<T> NAPS2.Util.AsyncSink<T>.AsAsyncEnumerable()
+   at TResult System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore<TResult>.GetResult(short token)
+   at async Task NAPS2.Automation.AutomatedScanning.ImportImages() x 2
+2025-07-02 23:05:52.7056 12988 Error importing file. Path: null System.IO.FileNotFoundException: Could not find file 'D:\Gokul\Hobby\naps2-java-wrapper\nodejs-naps2-wrapper\null'.
+File name: 'D:\Gokul\Hobby\naps2-java-wrapper\nodejs-naps2-wrapper\null'
+   at void System.IO.__Error.WinIOError(int errorCode, string maybeFullPath)
+   at void System.IO.FileStream.Init(string path, FileMode mode, FileAccess access, int rights, bool useRights, FileShare share, int bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, string msgPath, bool bFromProxy, bool useLongPath, bool checkHost)
+   at new System.IO.FileStream(string path, FileMode mode, FileAccess access)
+   at IAsyncEnumerable<ProcessedImage> NAPS2.ImportExport.FileImporter.Import(string filePath, ImportParams importParams, ProgressHandler progress)
+   at async Task NAPS2.Automation.AutomatedScanning.ImportImages()
+2025-07-02 23:05:52.8152 12988 Error importing file. Path: C:\\Users\\Dell\\Downloads\\Inventory - Basic - Schema.pdfC:\\Users\\Dell\\Downloads\\50 page sample PDF.indd.pdf System.IO.FileNotFoundException: Could not find pdf file: 'C:\\Users\\Dell\\Downloads\\Inventory - Basic - Schema.pdfC:\\Users\\Dell\\Downloads\\50 page sample PDF.indd.pdf'
+   at NAPS2.Pdf.PdfImporter.LoadDocument(String filePath, ImportParams importParams)
+   at NAPS2.Pdf.PdfImporter.<>c__DisplayClass4_0.<Import>b__0(Action`1 produceImage)
+   at NAPS2.Util.AsyncProducers.<>c__DisplayClass1_0`1.<RunProducer>b__0(Action`1 produce)
+   at NAPS2.Util.AsyncProducers.<>c__DisplayClass2_0`1.<<RunProducer>b__0>d.MoveNext()
+   at async IAsyncEnumerable<T> NAPS2.Util.AsyncSink<T>.AsAsyncEnumerable()
+   at TResult System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore<TResult>.GetResult(short token)
+   at async Task NAPS2.Automation.AutomatedScanning.ImportImages() x 2
+2025-07-02 23:06:29.0955 12364 Error importing file. Path: null System.IO.FileNotFoundException: Could not find file 'D:\Gokul\Hobby\naps2-java-wrapper\nodejs-naps2-wrapper\null'.
+File name: 'D:\Gokul\Hobby\naps2-java-wrapper\nodejs-naps2-wrapper\null'
+   at void System.IO.__Error.WinIOError(int errorCode, string maybeFullPath)
+   at void System.IO.FileStream.Init(string path, FileMode mode, FileAccess access, int rights, bool useRights, FileShare share, int bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, string msgPath, bool bFromProxy, bool useLongPath, bool checkHost)
+   at new System.IO.FileStream(string path, FileMode mode, FileAccess access)
+   at IAsyncEnumerable<ProcessedImage> NAPS2.ImportExport.FileImporter.Import(string filePath, ImportParams importParams, ProgressHandler progress)
+   at async Task NAPS2.Automation.AutomatedScanning.ImportImages()
+2025-07-02 23:06:29.2072 12364 Error importing file. Path: C:\\Users\\Dell\\Downloads\\Inventory - Basic - Schema.pdfC:\\Users\\Dell\\Downloads\\50 page sample PDF.indd.pdf System.IO.FileNotFoundException: Could not find pdf file: 'C:\\Users\\Dell\\Downloads\\Inventory - Basic - Schema.pdfC:\\Users\\Dell\\Downloads\\50 page sample PDF.indd.pdf'
+   at NAPS2.Pdf.PdfImporter.LoadDocument(String filePath, ImportParams importParams)
+   at NAPS2.Pdf.PdfImporter.<>c__DisplayClass4_0.<Import>b__0(Action`1 produceImage)
+   at NAPS2.Util.AsyncProducers.<>c__DisplayClass1_0`1.<RunProducer>b__0(Action`1 produce)
+   at NAPS2.Util.AsyncProducers.<>c__DisplayClass2_0`1.<<RunProducer>b__0>d.MoveNext()
+   at async IAsyncEnumerable<T> NAPS2.Util.AsyncSink<T>.AsAsyncEnumerable()
+   at TResult System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore<TResult>.GetResult(short token)
+   at async Task NAPS2.Automation.AutomatedScanning.ImportImages() x 2
+2025-07-02 23:06:46.1317 3220 Error importing file. Path: nullC:\\Users\\Dell\\Downloads\\Inventory - Basic - Schema.pdf System.IO.FileNotFoundException: Could not find pdf file: 'nullC:\\Users\\Dell\\Downloads\\Inventory - Basic - Schema.pdf'
+   at NAPS2.Pdf.PdfImporter.LoadDocument(String filePath, ImportParams importParams)
+   at NAPS2.Pdf.PdfImporter.<>c__DisplayClass4_0.<Import>b__0(Action`1 produceImage)
+   at NAPS2.Util.AsyncProducers.<>c__DisplayClass1_0`1.<RunProducer>b__0(Action`1 produce)
+   at NAPS2.Util.AsyncProducers.<>c__DisplayClass2_0`1.<<RunProducer>b__0>d.MoveNext()
+   at async IAsyncEnumerable<T> NAPS2.Util.AsyncSink<T>.AsAsyncEnumerable()
+   at TResult System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore<TResult>.GetResult(short token)
+   at async Task NAPS2.Automation.AutomatedScanning.ImportImages() x 2
+2025-07-02 23:09:20.1981 12688 Error importing file. Path: nullC:\\Users\\Dell\\Downloads\\Inventory - Basic - Schema.pdf System.IO.FileNotFoundException: Could not find pdf file: 'nullC:\\Users\\Dell\\Downloads\\Inventory - Basic - Schema.pdf'
+   at NAPS2.Pdf.PdfImporter.LoadDocument(String filePath, ImportParams importParams)
+   at NAPS2.Pdf.PdfImporter.<>c__DisplayClass4_0.<Import>b__0(Action`1 produceImage)
+   at NAPS2.Util.AsyncProducers.<>c__DisplayClass1_0`1.<RunProducer>b__0(Action`1 produce)
+   at NAPS2.Util.AsyncProducers.<>c__DisplayClass2_0`1.<<RunProducer>b__0>d.MoveNext()
+   at async IAsyncEnumerable<T> NAPS2.Util.AsyncSink<T>.AsAsyncEnumerable()
+   at TResult System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore<TResult>.GetResult(short token)
+   at async Task NAPS2.Automation.AutomatedScanning.ImportImages() x 2
+2025-07-02 23:10:52.8208 13044 Error importing file. Path: nullC:\\Users\\Dell\\Downloads\\Inventory - Basic - Schema.pdf System.IO.FileNotFoundException: Could not find pdf file: 'nullC:\\Users\\Dell\\Downloads\\Inventory - Basic - Schema.pdf'
+   at NAPS2.Pdf.PdfImporter.LoadDocument(String filePath, ImportParams importParams)
+   at NAPS2.Pdf.PdfImporter.<>c__DisplayClass4_0.<Import>b__0(Action`1 produceImage)
+   at NAPS2.Util.AsyncProducers.<>c__DisplayClass1_0`1.<RunProducer>b__0(Action`1 produce)
+   at NAPS2.Util.AsyncProducers.<>c__DisplayClass2_0`1.<<RunProducer>b__0>d.MoveNext()
+   at async IAsyncEnumerable<T> NAPS2.Util.AsyncSink<T>.AsAsyncEnumerable()
+   at TResult System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore<TResult>.GetResult(short token)
+   at async Task NAPS2.Automation.AutomatedScanning.ImportImages() x 2

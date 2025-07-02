@@ -32,9 +32,9 @@ class ScanBuilder {
     withDevice(device) {
         this.arguments.push('--noprofile');
         this.arguments.push('--driver');
-        this.arguments.push(device.getDriver().toLowerCase());
+        this.arguments.push(device.driver.toLowerCase());
         this.arguments.push('--device');
-        this.arguments.push(`${device.getName()}`);
+        this.arguments.push(`${device.name}`);
         return this;
     }
 

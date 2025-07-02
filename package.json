@@ -1,6 +1,6 @@
 {
   "name": "nodejs-naps2-wrapper",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "NAPS2 wrapper for Node.js",
   "main": "index.js",
   "scripts": {
@@ -14,18 +14,15 @@
   ],
   "author": "Gokul C Thankappan",
   "license": "MIT",
-  "dependencies": {
-    "node-scan": "file:"
-  },
   "files": [
     "naps",
     "lib",
     "LICENCE",
-    "READ.md",
+    "README.md",
     "index.js"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/node-scan.git"
+    "url": "https://github.com/gokulct/nodejs-naps2-wrapper"
   }
 }
