@@ -49,6 +49,12 @@ async function example() {
             .execute('output.pdf');
             
         console.log('Scan completed:', result);
+
+        //To combine multiple pdf files
+        const pdfutils = new PDFUtility(naps2);
+        pdfutils.combine(['C:\\Users\\Dell\\Downloads\\Inventory - Basic - Schema.pdf', 'C:\\Users\\Dell\\Downloads\\50 page sample PDF.indd.pdf'], 'C:\\Users\\Dell\\Downloads\\out.pdf').then((resp) => {
+            console.log(resp);
+        })
     } catch (error) {
         console.error('Scan failed:', error);
     }
